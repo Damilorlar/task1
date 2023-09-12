@@ -6,7 +6,7 @@
 body{
 height:100%;
  width: 100%;
- background-image: url(/images/bg.png);
+ background-image: url(../images/resize.png);
  background-size: cover;
  background-position:center ;
  font-family: 'Lato', sans-serif;
