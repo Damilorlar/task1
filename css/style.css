@@ -4,9 +4,10 @@
  box-sizing: border-box;
 }
 body{
-height:100%;
+max-height:100%;
  width: 100%;
  background-image: url(../images/resize.png);
+ /* background-repeat: no-repeat; */
  background-size: cover;
  background-position:center ;
  font-family: 'Lato', sans-serif;
@@ -48,4 +49,149 @@ button{
  border: none;
  border-radius: 10px;
  color: white;
+}
+
+/* media query */
+@media screen and (max-width: 425px) {
+  body{
+   height:100%;
+    width: 100%;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+  }
+ .container .right{
+  height:50%;
+ width: 48vh;
+  margin: 20px 0 0 15px;
+  color: white;
+ }
+ .container .right h1{
+  font-size: 20px;
+ }
+ .container p{
+  font-size: 14px;
+  margin-top: 10px;
+ }
+ .btn{
+  margin-top: 10px;
+  margin-bottom: 35px;
+ }
+ button{
+  width: 14vh;
+  border: none;
+  border-radius: 7px;
+  font-size: 9px;
+  padding: 8px;
+ }
+ .bottom{
+  flex-direction: column;
+  width: 90%;
+  row-gap: 10px;
+  margin: auto;
+ }
+ 
+ .bottom .card{
+  background-color: #3d4756bb;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+ }
+}
+/* Tablet  */
+@media screen and (max-width: 425px) {
+ body{
+  height:100%;
+   width: 100%;
+   /* background-repeat: no-repeat; */
+   background-size: cover;
+   background-position: center;
+ }
+.container .right{
+ height:50%;
+width: 48vh;
+ margin: 20px 0 0 15px;
+ color: white;
+}
+.container .right h1{
+ font-size: 20px;
+}
+.container p{
+ font-size: 14px;
+ margin-top: 10px;
+}
+.btn{
+ margin-top: 10px;
+ margin-bottom: 35px;
+}
+button{
+ width: 14vh;
+ border: none;
+ border-radius: 7px;
+ font-size: 9px;
+ padding: 8px;
+}
+.bottom{
+ flex-direction: column;
+ width: 90%;
+ row-gap: 10px;
+ margin: auto;
+}
+
+.bottom .card{
+ background-color: #3d4756bb;
+ padding: 10px 15px;
+ border: none;
+ border-radius: 10px;
+ color: white;
+}
+}
+/* Tablet  */
+@media screen and (max-width: 425px) {
+ body{
+  height:100%;
+   width: 100%;
+   /* background-repeat: no-repeat; */
+   background-size: cover;
+   background-position: center;
+ }
+.container .right{
+ height:50%;
+width: 48vh;
+ margin: 20px 0 0 15px;
+ color: white;
+}
+.container .right h1{
+ font-size: 20px;
+}
+.container p{
+ font-size: 14px;
+ margin-top: 10px;
+}
+.btn{
+ margin-top: 10px;
+ margin-bottom: 35px;
+}
+button{
+ width: 14vh;
+ border: none;
+ border-radius: 7px;
+ font-size: 9px;
+ padding: 8px;
+}
+.bottom{
+ flex-direction: column;
+ width: 90%;
+ row-gap: 10px;
+ margin: auto;
+}
+
+.bottom .card{
+ background-color: #3d4756bb;
+ padding: 10px 15px;
+ border: none;
+ border-radius: 10px;
+ color: white;
+}
 }
