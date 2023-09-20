@@ -183,7 +183,7 @@ button{
 .bottom{
  flex-direction: column;
  width: 90%;
- row-gap: 10px;
+ row-gap: 14px;
  margin: auto;
 }
 
